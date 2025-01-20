@@ -6,6 +6,8 @@ week-4
 week-5
 week-6/*.pptx
 
+# Ignore learning
+learning.txt
 
 # Ignore cache
 *__pycache__
