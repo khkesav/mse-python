@@ -7,7 +7,7 @@
 #         return n * factorial(n-1)
     
 # print(factorial(4))
-
+print("test")
 # number = [2, 3, 4, 5]
  
 # factorials = [1 if n == 0 else (f := 1, [f := f * i for i in range(1, n + 1)], f)[-1] for n in number]
