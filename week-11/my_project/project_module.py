@@ -1,6 +1,10 @@
 
 from typing import List
 
+"""
+Function rolling_average calculates the rolling (or moving) average of a
+list of numerical values over a specified period.
+"""
 def rolling_average(values: List, period:int)-> List:
     rolling_averages = []
     
