@@ -5,6 +5,7 @@ from my_project import project_module
 def test_something(my_data):
     assert my_data == 42
 
+#Decorators
 @pytest.mark.parametrize("values,expected_results",[
     (
     [1,2,3,4,5,6],
