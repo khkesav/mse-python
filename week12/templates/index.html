@@ -7,15 +7,28 @@
     <div class="main center">
         <h1>Flask Application</h1>
         <div class="block-button__group">
-            <button class="button" data-message="Alert Message 1">Alert 1</button>
-            <button class="button" data-message="Alert Message 2">Alert 2</button>
+            <a href="/" class="button">Home</a>
             <a href="/contact" class="button">Contact</a>
             <a href="/about" class="button">About</a>
         </div>
+        
         <div class="block-image">
             <img width="1920" height="1080" src="/static/hero.jpg" alt="Flask Application Home"/>
+
+            <!-- Button to open file from local computer -->
+            <div class="block-button__group">
+                <input id="fileInput" type="file" id="file" />
+            </div>
+            <div class="block-image__preview"></div>
+        </div>
+        <div class="block-button__group">
+            <button class="button" data-message="Alert Message 1">Alert 1</button>
+            <button class="button" data-message="Alert Message 2">Alert 2</button>
         </div>
     </div>
+    <footer class="footer">
+        <p>Flask Application &copy; 2025</p>
+    </footer>
     <script src="static/script.js"></script>
 </body>
 </html>
