@@ -11,8 +11,25 @@ body{
     margin: 0;
 }
 
+header{
+    width: 100%;
+}
+
 .main{
     margin-bottom: 48px;
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 16px;
 }
 
 .button{
