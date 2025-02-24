@@ -14,5 +14,9 @@ def contact():
 def about():
     return render_template('about.html')
 
+@app.route('/profile/<name>')
+def user(name):
+    return render_template('profile.html', username=name)
+
 if __name__ == '__main__':
     app.run(debug=True)

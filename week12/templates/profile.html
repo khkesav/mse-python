@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Contact page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="main center">
+      <h1>Profile</h1>
+      <div class="block-navigation">
+        <a href="/" class="button">Home</a>
+        <a href="/contact" class="button">Contact</a>
+        <a href="/about" class="button">About</a>
+      </div>
+      <div class="block-user">
+        <h2>User Details</h2>
+        <p>Name: {{ username }}</p>
+      </div>
+      <div class="block-button__group">
+        <a href="/" class="button">Return to home</a>
+      </div>
+    </div>
+  </body>
+</html>
